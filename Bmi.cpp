@@ -5,7 +5,7 @@
 //write
 void write(string name ,double bmi){
     ofstream myfile;
-    myfile.open ("example.cvs");
+    myfile.open ("example.csv");//csv not cvs!!!
         myfile << "Name "<<","<<"BMI "<<endl;
     myfile << name <<" , "<<bmi<<endl;
     myfile.close();
